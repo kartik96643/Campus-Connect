@@ -1,0 +1,160 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+
+
+  <style>
+
+    footer{
+      box-shadow: 0px -6px 10px rgba(0, 0, 0, 0.2);
+
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+    /* Ensure page content doesn't hide behind footer */
+   
+    .footer {
+  background: #0b132b;
+  color: #ffffff;
+  padding: 10px 0 10px;
+  /* font-family: 'Poppins', sans-serif; */
+      font-family: 'Nunito', sans-serif;
+
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+.footer-left h3 {
+  font-size: 1.6rem;
+  color: #5bc0be;
+  margin-bottom: 10px;
+}
+
+.footer-left p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #dcdcdc;
+}
+
+.footer-center ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-center ul li {
+  margin: 8px 0;
+}
+
+.footer-center ul li a {
+  color: #eaeaea;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: 0.3s;
+}
+
+.footer-center ul li a:hover {
+  color: #5bc0be;
+}
+
+.footer-right p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.social-icons a {
+  color: #eaeaea;
+  margin: 0 8px;
+  font-size: 1.3rem;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #5bc0be;
+}
+
+.footer-bottom {
+  margin-top: 30px;
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 15px;
+  font-size: 0.9rem;
+  color: #dcdcdc;
+}
+
+.footer-bottom .dev-name {
+  color: #5bc0be;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+  </style>
+
+</head>
+<body>
+   <!-- <footer class="bg-secondary text-white fixed-bottom"> -->
+ <footer class="footer">
+  <div class="footer-container">
+
+    <div class="footer-left">
+      <h3>CampusConnect</h3>
+      <p>
+        Connecting students, teachers & opportunities across campuses.
+      </p>
+    </div>
+
+    <div class="footer-right">
+      <p>Follow us</p>
+
+      <div class="social-icons">
+        <a href="#"><i class="bi bi-instagram"></i></a>
+        <a href="#"><i class="bi bi-linkedin"></i></a>
+        <a href="#"><i class="bi bi-github"></i></a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>
+      © <%= new Date().getFullYear() %> CampusConnect.
+      All rights reserved.
+    </p>
+
+    <p>
+      Designed & Developed by
+      <span class="dev-name">Kartik Jangid</span>
+    </p>
+  </div>
+</footer>
+
+<!-- Font Awesome Icons -->
+
+  <!-- </div> -->
+
+
+  
+<!-- </footer> -->
+
+</body>
+</html>
