@@ -23,8 +23,7 @@ Campus Connect allows users to create profiles, connect with other students, sea
   * Batch
 * Real-time chatting using WebSockets / Socket.io
 * Responsive design for desktop and mobile devices
-* Pagination for efficient user handling
-* Lazy loading for optimized performance
+
 
 ## Admin Features
 
